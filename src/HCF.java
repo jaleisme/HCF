@@ -1,15 +1,9 @@
 import java.util.Scanner;
 
-public class main {
+public class HCF {
     int N = 0;
     int K = 0;
     
-    public static void main(String[] args) {
-        System.out.println("Input :");          
-        Scanner BT = new Scanner(System.in);   
-        int T = Integer.parseInt(BT.next());    
-        new main().proses(T);                   
-    }
     
     public int faktorial(int faktor){
         int nilaiFaktor;                                
